@@ -35,7 +35,7 @@ def get_image_from_api(text):
     import requests
 
     API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
-    headers = {"Authorization": "Bearer API_KEY"}
+headers = {"Authorization": "Bearer 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"}
 
     def query(payload):
         response = requests.post(API_URL, headers=headers, json=payload)
